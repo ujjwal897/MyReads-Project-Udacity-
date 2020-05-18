@@ -19,13 +19,13 @@ body, .app {
 .list-books-title h1 {
   font-weight: 800;
   margin: 0;
-  color: gold;
+  color: yellow;
 }
 
 .list-books-content {
   padding: 0 0 80px;
   flex: 1;
-  color: brown;
+  color: silver;
   font-family: "Times New Roman";
 }
 
@@ -56,7 +56,7 @@ body, .app {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: purple;
+  background: blue;
   background-image: url('./icons/add.svg');
   background-repeat: no-repeat;
   background-position: center;
@@ -94,7 +94,7 @@ body, .app {
   left: 15px;
   width: 50px;
   height: 53px;
-  background: yellow;
+  background: gold;
   background-image: url('./icons/arrow-back.svg');
   background-position: center;
   background-repeat: no-repeat;
