@@ -54,7 +54,6 @@ BooksAPI.getAll().then(res=>{
 }*/
 handleSearchChange = (event)=>{
     //alert("hello");
-    console.log(event.target.value);
     let query = event.target.value
     
     if(query.length!==0)
