@@ -1,6 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
 
 /** 
  This course is not designed to teach Test Driven Development. 
@@ -13,4 +13,19 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div)
 })
 
+// @ponicode
+describe("componentDidMount", () => {
+    let inst
 
+    beforeEach(() => {
+        inst = new App.default()
+    })
+
+    test("0", () => {
+        let callFunction = () => {
+            inst.componentDidMount()
+        }
+    
+        expect(callFunction).not.toThrow()
+    })
+})
